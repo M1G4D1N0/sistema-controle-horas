@@ -1,0 +1,41 @@
+{
+  "name": "sistema-controle-horas",
+  "version": "2.0.0",
+  "description": "Sistema web completo para controle de horas trabalhadas com suporte a PostgreSQL e múltiplos formatos de exportação",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "db:push": "node push-schema.js",
+    "db:studio": "drizzle-kit studio"
+  },
+  "keywords": [
+    "timesheet",
+    "hours-tracking",
+    "work-management",
+    "postgresql",
+    "nodejs",
+    "bootstrap",
+    "iso-8601",
+    "pdf-export",
+    "brasil"
+  ],
+  "author": "Sistema de Controle de Horas",
+  "license": "MIT",
+  "dependencies": {
+    "@neondatabase/serverless": "^0.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "drizzle-kit": "^0.20.4",
+    "drizzle-orm": "^0.29.1",
+    "express": "^4.18.2",
+    "ws": "^8.14.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seu-usuario/sistema-controle-horas.git"
+  }
+}

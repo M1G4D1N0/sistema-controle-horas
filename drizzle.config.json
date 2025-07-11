@@ -1,0 +1,7 @@
+{
+  "dialect": "postgresql",
+  "schema": "./shared/schema.ts",
+  "out": "./drizzle",
+  "verbose": true,
+  "strict": true
+}
